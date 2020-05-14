@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 3%;
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: fixed;
+  height: 7vh;
+  width: 100%;
+  background: white;
+  font-family: 'Work Sans', sans-serif;
+
+}
+
+.jonathan{
+display: flex;
+width: 100%;
+align-items: flex-start;
+justify-content: flex-start;
+}
+.about{
+  display: flex;
+  width: 100%;
+  padding-right: 6%;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+
+img {
+  margin-bottom: 3%;
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  position: relative;
+  left: 30px;
+  color: green;
+}
