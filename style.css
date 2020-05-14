@@ -31,21 +31,45 @@ body {
 
 }
 
+
+
 .jonathan{
 display: flex;
+text-decoration: none;
+flex-direction: row;
+padding-left: 1%;
 width: 100%;
 align-items: flex-start;
 justify-content: flex-start;
+color: black;
 }
+
+.info {
+  display: flex;
+  justify-content: left;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.video {
+  z-index:-1;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-bottom: 3%;
+}
+
 .about{
   display: flex;
   width: 100%;
-  padding-right: 6%;
+  padding-right: 7%;
   align-items: flex-end;
   justify-content: flex-end;
 }
 
+.image {
+  margin-top: 7vh;
 
+}
 img {
   margin-bottom: 3%;
   display: flex;
