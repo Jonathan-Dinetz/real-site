@@ -51,10 +51,9 @@ color: black;
 }
 
 .video {
-  z-index:-1;
+  display: flex;
   width: 100%;
   height: auto;
-  display: cover;
   margin-bottom: 3%;
 }
 
